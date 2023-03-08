@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Main</title>
+</head>
+<body>
+	<form method="POST" action="/">
+		<label for="string">Enter operation:</label>
+		<input type="text" id="string" name="string">
+		<button type="submit">Submit</button>
+	</form>
+
+    <label for="string">Result: {{result}}</label>
+
+
+    <form method="POST" action="/show">
+		<button type="submit">Show history</button>
+    </form>>
+</body>
+</html>
